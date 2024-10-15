@@ -42,9 +42,9 @@ session_start();
             </form>
         </div>
         <div class="relative w-full max-w-lg h-96">
-                <img class="absolute w-[100px] h-[110px] left-0 top-[25%]" src="../pictures/Bitmap100x100.jpg" alt="Decorative Bitmap">
-                <img class="absolute w-[40px] h-[50px] right-0 bottom-0" src="../pictures/Bitmap42x49.jpg" alt="Decorative Bitmap">
-                <img class="absolute w-[52px] h-[55px] right-[10%] top-0" src="../pictures/Bitmap55x55.jpg" alt="Decorative Bitmap">
+                <img class="absolute w-[100px] h-[110px] left-0 top-[25%]" src="/pictures/Bitmap100x100.jpg" alt="Decorative Bitmap">
+                <img class="absolute w-[40px] h-[50px] right-0 bottom-0" src="/pictures/Bitmap42x49.jpg" alt="Decorative Bitmap">
+                <img class="absolute w-[52px] h-[55px] right-[10%] top-0" src="/pictures/Bitmap55x55.jpg" alt="Decorative Bitmap">
         </div>
     </div>
   </div>
