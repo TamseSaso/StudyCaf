@@ -35,7 +35,7 @@ require_once '../database/database.php'; // Assuming a separate file to handle d
         <div class="MenuOptions w-full md:w-[463.39px] flex justify-center items-center gap-[30px] md:gap-[135px]">
           <div class="Coffee flex flex-col justify-center items-center gap-0.5">
             <a href="?category=Coffee">
-              <img class="w-16 h-16" src="../pictures/<?php echo (isset($_GET['category']) && $_GET['category'] == 'Coffee') ? 'coffee-active.png' : 'coffee-idle.png'; ?>" alt="Coffee Icon" />
+              <img class="w-16 h-16" src="/pictures/<?php echo (isset($_GET['category']) && $_GET['category'] == 'Coffee') ? 'coffee-active.png' : 'coffee-idle.png'; ?>" alt="Coffee Icon" />
               <div class="Coffee text-center text-[#333333] <?php echo (isset($_GET['category']) && $_GET['category'] == 'Coffee') ? '' : '/50'; ?> text-base font-normal font-Lato">Coffee</div>
             </a>
             <?php if (isset($_GET['category']) && $_GET['category'] == 'Coffee') { ?>
@@ -44,7 +44,7 @@ require_once '../database/database.php'; // Assuming a separate file to handle d
           </div>
           <div class="Bakery flex flex-col justify-center items-center gap-0.5">
             <a href="?category=Bakery">
-              <img class="w-16 h-[42px] mb-5" src="../pictures/<?php echo (isset($_GET['category']) && $_GET['category'] == 'Bakery') ? 'bakery-active.png' : 'bakery-idle.png'; ?>" alt="Bakery Icon" />
+              <img class="w-16 h-[42px] mb-5" src="/pictures/<?php echo (isset($_GET['category']) && $_GET['category'] == 'Bakery') ? 'bakery-active.png' : 'bakery-idle.png'; ?>" alt="Bakery Icon" />
               <div class="Bakery text-center text-[#333333] <?php echo (isset($_GET['category']) && $_GET['category'] == 'Bakery') ? '' : '/50'; ?> text-base font-normal font-Lato">Bakery</div>
             </a>
             <?php if (isset($_GET['category']) && $_GET['category'] == 'Bakery') { ?>
@@ -53,7 +53,7 @@ require_once '../database/database.php'; // Assuming a separate file to handle d
           </div>
           <div class="Breakfast flex flex-col justify-center items-center gap-0.5">
             <a href="?category=Breakfast">
-              <img class="w-16 h-16" src="../pictures/<?php echo (isset($_GET['category']) && $_GET['category'] == 'Breakfast') ? 'breakfast-active.png' : 'breakfast-idle.png'; ?>" alt="Breakfast Icon" />
+              <img class="w-16 h-16" src="/pictures/<?php echo (isset($_GET['category']) && $_GET['category'] == 'Breakfast') ? 'breakfast-active.png' : 'breakfast-idle.png'; ?>" alt="Breakfast Icon" />
               <div class="Breakfast text-center text-[#333333] <?php echo (isset($_GET['category']) && $_GET['category'] == 'Breakfast') ? '' : '/50'; ?> text-base font-normal font-Lato">Breakfast</div>
             </a>
             <?php if (isset($_GET['category']) && $_GET['category'] == 'Breakfast') { ?>
@@ -127,26 +127,26 @@ require_once '../database/database.php'; // Assuming a separate file to handle d
         <div class="Pictures justify-center items-center gap-[30px] inline-flex flex-col xl:flex-row">
           <div class="Group1 w-[370px] flex-col justify-start items-start gap-8 inline-flex">
             <div class="Bitmap w-[370px] h-[336px] relative left-0 top-0 bg-[#f28d3c] rounded-3xl overflow-hidden">
-              <img class="rounded-[20px]" src="../pictures/image1.png"></img>
+              <img class="w-full h-full object-cover rounded-[20px]" src="/pictures/image1.png"></img>
             </div>
             <div class="Bitmap w-[370px] h-[496px] relative left-0 top-0 bg-[#f28d3c] rounded-3xl overflow-hidden">
-              <img class="w-full h-full object-cover rounded-[20px]" src="../pictures/image2.png"></img>
+              <img class="w-full h-full object-cover rounded-[20px]" src="/pictures/image2.png"></img>
             </div>
           </div>
           <div class="Group2 w-[370px] flex-col justify-start items-start gap-8 inline-flex">
           <div class="Bitmap w-[370px] h-[496px] relative left-0 top-0 bg-[#f28d3c] rounded-3xl overflow-hidden">
-              <img class="w-full h-full object-cover rounded-[20px]" src="../pictures/image3.png"></img>
+              <img class="w-full h-full object-cover rounded-[20px]" src="/pictures/image3.png"></img>
             </div>
             <div class="Bitmap w-[370px] h-[336px] relative left-0 top-0 bg-[#f28d3c] rounded-3xl overflow-hidden">
-              <img class="w-full h-full object-cover rounded-[20px]" src="../pictures/image4.png"></img>
+              <img class="w-full h-full object-cover rounded-[20px]" src="/pictures/image4.png"></img>
             </div>
           </div>
           <div class="Group3 w-[370px] flex-col justify-start items-start gap-8 inline-flex">
             <div class="Bitmap w-[370px] h-[416px] relative left-0 top-0 bg-[#f28d3c] rounded-3xl overflow-hidden">
-              <img class="w-full h-full object-cover rounded-[20px]" src="../pictures/image5.png"></img>
+              <img class="w-full h-full object-cover rounded-[20px]" src="/pictures/image5.png"></img>
             </div>
             <div class="Bitmap w-[370px] h-[416px] relative left-0 top-0 bg-[#f28d3c] rounded-3xl overflow-hidden">
-              <img class="w-full h-full object-cover rounded-[20px]" src="../pictures/image6.png"></img>
+              <img class="w-full h-full object-cover rounded-[20px]" src="/pictures/image6.png"></img>
             </div>
           </div>
         </div>
