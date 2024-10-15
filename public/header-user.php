@@ -98,7 +98,7 @@ if (isset($_SESSION['email'])) {
     <div class="User group justify-end inline-block">
         <button class="HelloUser flex items-center gap-[17px] text-white text-sm font-bold font-['Red Rose'] uppercase">HELLO, <?php echo strtoupper($email_username); ?>
             <div class="User05c w-[50px] h-[50px] relative bg-[#f9d4b3] rounded-full overflow-hidden">
-                <img class="User05c w-[38px] h-[45px] left-[6px] top-[6.08px] absolute" src="../pictures/User05csmall.png">
+                <img class="User05c w-[38px] h-[45px] left-[6px] top-[6.08px] absolute" src="/pictures/User05csmall.png">
             </div>
         </button>
         <div class="dropdown-content hidden absolute bg-black w-[180px] shadow-lg z-10 rounded-3xl group-hover:block">
