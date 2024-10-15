@@ -37,13 +37,13 @@ session_start();
                 </a>
             </div>
             <div class="relative w-full max-w-lg h-96">
-                <img class="absolute w-[100px] h-[110px] left-0 top-[25%]" src="../pictures/Bitmap100x100.jpg" alt="Decorative Bitmap">
-                <img class="absolute w-[40px] h-[50px] right-0 bottom-0" src="../pictures/Bitmap42x49.jpg" alt="Decorative Bitmap">
-                <img class="absolute w-[52px] h-[55px] right-[10%] top-0" src="../pictures/Bitmap55x55.jpg" alt="Decorative Bitmap">
+                <img class="absolute w-[100px] h-[110px] left-0 top-[25%]" src="/pictures/Bitmap100x100.jpg" alt="Decorative Bitmap">
+                <img class="absolute w-[40px] h-[50px] right-0 bottom-0" src="/pictures/Bitmap42x49.jpg" alt="Decorative Bitmap">
+                <img class="absolute w-[52px] h-[55px] right-[10%] top-0" src="/pictures/Bitmap55x55.jpg" alt="Decorative Bitmap">
             </div>
         </div>
         <div id="about" class="w-full flex flex-col lg:flex-row items-center justify-between gap-10 px-4 md:px-[60px] py-10 md:py-[90px]">
-        <img class="bg-[#d7d7d7] rounded-3xl w-full md:w-[370px] max-w-[370px] aspect-square lg:order-2" src="../pictures/studycaf.png"></img>
+        <img class="bg-[#d7d7d7] rounded-3xl w-full md:w-[370px] max-w-[370px] aspect-square lg:order-2" src="/pictures/studycaf.png"></img>
         <div class="w-full lg:w-2/3 max-w-[470px]">
                 <div class="text-[#f28d3c] text-lg uppercase font-lato tracking-[3px]">About</div>
                 <h2 class="text-6xl font-red-rose text-white font-bold mt-4">Delightful Experience</h2>
