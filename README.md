@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**StudyCaf** is a study café management system designed to provide users with an efficient way to interact with a study café environment. This system offers functionalities for managing user roles, making reservations, handling products, and tracking loyalty points. The database structure is implemented using MySQL 8.0 and serves as the backbone for the operations of the application.
+**Tamse-Site.top** is a study café management system designed to provide users with an efficient way to interact with a study café environment. This system offers functionalities for managing user roles, making reservations, handling products, and tracking loyalty points and discounts. The database structure is implemented using MySQL 8.0 and serves as the backbone for the operations of the application.
 
 - **Created:** 04/09/2024
 - **Modified:** 15/10/2024
@@ -12,9 +12,10 @@
 ## Features
 
 - User management, including registration, authentication, and role assignments.
-- Product management: available products and student price.
+- Product management: available products and student discounts.
 - Table reservations for study sessions.
 - Loyalty point tracking system for users.
+- Coupon management for discounts on products.
 
 ## Database Schema
 
@@ -24,7 +25,7 @@ The database model includes several key tables that are fundamental to the syste
 
 - **citys**: Stores information about cities, including name and postal number.
 - **users**: Manages user data such as email, password, address, and relationships to `citys`, `genders`, and `pictures` (for certificates).
-- **roles**: Defines roles such as admin, user, student, etc.
+- **roles**: Defines roles such as admin, user, etc.
 - **user_role**: Connects users to specific roles.
 - **products**: Contains product data, including price, student price, and related pictures.
 - **categories**: Represents different product categories.
@@ -33,7 +34,7 @@ The database model includes several key tables that are fundamental to the syste
 - **reservations**: Manages reservations made by users, including time and table data.
 - **points**: Tracks loyalty points assigned to users.
 - **coupons**: Contains discount coupons available for users, tied to specific roles.
-- **product_coupon**: Associates products with available discount coupons.
+- **product_coupon**: Associates products with available student discount.
 - **genders**: Stores possible genders for users.
 - **password_resets**: Stores information for password reset requests.
 
@@ -44,6 +45,8 @@ The database model includes several key tables that are fundamental to the syste
 - **products** have relationships with **categories** and **pictures**.
 - **reservations** involve **users** and **tables** to manage bookings.
 - **points** are assigned to **users** to maintain a loyalty program.
+- **coupons** relate to **user_role** and **pictures**.
+- **product_coupon** links **products** to **coupons**.
 
 ## Installation
 
@@ -51,14 +54,30 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/TamseSaso/StudyCaf.git
+   git clone https://github.com/yourusername/tamse-site.git
    ```
 
 2. Set up your MySQL database using the provided SQL script (`studycaf.sql`). Make sure to create the necessary tables and relationships as specified.
 
-3. Configure your environment variables in the `.env` file (e.g., database credentials).
+3. Install Composer:
+   ```bash
+   curl -sS https://getcomposer.org/installer | php
+   sudo mv composer.phar /usr/local/bin/composer
+   ```
 
-4. Start the web server:
+4. Install dependencies for QR code generation:
+   ```bash
+   composer require endroid/qr-code
+   ```
+
+5. Install dependencies for Google API integration:
+   ```bash
+   composer require google/apiclient
+   ```
+
+6. Configure your environment variables in the `.env` file (e.g., database credentials).
+
+7. Start the web server:
    ```bash
    php -S localhost:8000
    ```
@@ -68,7 +87,7 @@ To run this project locally, follow these steps:
 1. **User Registration/Login**: Users can register and log in to make reservations and access features such as loyalty points.
 2. **Make a Reservation**: Book a table at the café for a study session.
 3. **View Products**: Browse available products, including beverages, food items, and more.
-5. **Track Points**: Earn and redeem loyalty points.
+5. **Track Points**: Earn and redeem loyalty points by scanning qr-code.
 
 ## Technologies Used
 
@@ -98,4 +117,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or suggestions, please feel free to reach out to us at [saso.tamse@scv.si](mailto:saso.tamse@scv.si).
+For any questions or suggestions, please feel free to reach out to us at [contact@tamse-site.top](mailto:contact@tamse-site.top).
