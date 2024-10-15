@@ -100,9 +100,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
     <div class="Register w-full px-4 md:px-20 py-10 md:py-[35px] bg-[#f9d4b3] md:rounded-[70px] rounded-[32px] flex flex-col md:flex-row justify-between items-center gap-10">
             <div class="relative w-full max-w-lg hidden md:block h-96">
-                <img class="absolute w-[100px] h-[110px] left-0 top-[25%]" src="../pictures/Bitmap100x100.jpg" alt="Decorative Bitmap">
-                <img class="absolute w-[40px] h-[50px] right-0 bottom-0" src="../pictures/Bitmap42x49.jpg" alt="Decorative Bitmap">
-                <img class="absolute w-[52px] h-[55px] right-[10%] top-0" src="../pictures/Bitmap55x55.jpg" alt="Decorative Bitmap">
+                <img class="absolute w-[100px] h-[110px] left-0 top-[25%]" src="/pictures/Bitmap100x100.jpg" alt="Decorative Bitmap">
+                <img class="absolute w-[40px] h-[50px] right-0 bottom-0" src="/pictures/Bitmap42x49.jpg" alt="Decorative Bitmap">
+                <img class="absolute w-[52px] h-[55px] right-[10%] top-0" src="/pictures/Bitmap55x55.jpg" alt="Decorative Bitmap">
             </div>
       <form method="POST" class="RegisterForm w-full max-w-md flex flex-col justify-start items-start gap-5">
         <div class="BestCoffeeRoasted text-[#333333] text-7xl md:text-7xl font-bold font-['Red Rose'] leading-tight md:leading-[80px]">REGISTER</div>
