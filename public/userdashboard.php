@@ -79,7 +79,7 @@
     <div class="UserAura w-full md:w-full h-auto md:h-[743px] p-5 bg-[#f28d3c] rounded-[32px] md:rounded-[50px] flex flex-col justify-start items-center gap-[30px] md:gap-[55px]">
     <div class="UserPfp h-[358.43px] flex-col justify-center items-center gap-2 flex">
           <div class="User05c w-[300px] h-[302.43px] relative bg-[#f9d4b3] rounded-full overflow-hidden">
-            <img class="User05c w-60 h-[275.52px] left-[30px] top-[30.24px] absolute" src="../pictures/User05cbig.png"></img>
+            <img class="User05c w-60 h-[275.52px] left-[30px] top-[30.24px] absolute" src="/pictures/User05cbig.png"></img>
           </div>
       </div>
       <div class="UserInfo w-full md:w-auto h-auto md:h-[290px] px-4 md:px-6 py-[15px] md:py-[25px] bg-[#f9d4b3] rounded-[32px] md:rounded-[40px] flex flex-col justify-center items-start gap-2.5">
@@ -99,7 +99,7 @@
             for ($i = 0; $i < 10; $i++) {
                 $pointImage = ($i < $points) ? "Point-full.png" : "Point-none.png";
                 $pointHeight = ($i < $points) ? "100px" : "87.50px";
-                echo '<img class="CombinedShape w-[100px] h-[' . $pointHeight . ']" src="../pictures/' . $pointImage . '" alt="Point Icon" />';
+                echo '<img class="CombinedShape w-[100px] h-[' . $pointHeight . ']" src="/pictures/' . $pointImage . '" alt="Point Icon" />';
             }
             ?>
           </div>
