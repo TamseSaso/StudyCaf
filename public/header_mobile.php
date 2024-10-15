@@ -10,7 +10,7 @@
     <a class="Caf text-white text-[40px] font-bold font-['Red Rose'] leading-[48px]" href="index.php">STUDYCAF</a>
     <a href="menu_mobile.php">
     <button class="Menu w-12 h-12 relative bg-black rounded-full">
-        <img class="Menu w-12 h-12" src="../pictures/menu.jpg">
+        <img class="Menu w-12 h-12" src="/pictures/menu.jpg">
     </button>
     </a>
 </div>
