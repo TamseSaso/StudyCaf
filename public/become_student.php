@@ -107,9 +107,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['picture_certificate']
                 </div>
             </form>
             <div class="relative w-full max-w-lg h-64 md:h-96">
-                <img class="absolute w-[80px] md:w-[100px] h-[88px] md:h-[110px] left-0 top-[25%]" src="../pictures/Bitmap100x100.jpg" alt="Decorative Bitmap">
-                <img class="absolute w-[32px] md:w-[40px] h-[40px] md:h-[50px] right-0 bottom-0" src="../pictures/Bitmap42x49.jpg" alt="Decorative Bitmap">
-                <img class="absolute w-[42px] md:w-[52px] h-[45px] md:h-[55px] right-[10%] top-0" src="../pictures/Bitmap55x55.jpg" alt="Decorative Bitmap">
+                <img class="absolute w-[80px] md:w-[100px] h-[88px] md:h-[110px] left-0 top-[25%]" src="/pictures/Bitmap100x100.jpg" alt="Decorative Bitmap">
+                <img class="absolute w-[32px] md:w-[40px] h-[40px] md:h-[50px] right-0 bottom-0" src="/pictures/Bitmap42x49.jpg" alt="Decorative Bitmap">
+                <img class="absolute w-[42px] md:w-[52px] h-[45px] md:h-[55px] right-[10%] top-0" src="/pictures/Bitmap55x55.jpg" alt="Decorative Bitmap">
             </div>
         </div>
     </div>
