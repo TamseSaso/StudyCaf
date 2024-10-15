@@ -38,13 +38,13 @@
             <div class="text-[#f28d3c] text-lg uppercase font-Lato tracking-wider">Social</div>
             <div class="flex justify-center sm:justify-start gap-4 mt-4">
                 <a href="#" class="w-10 h-10 bg-[#f28d3c] rounded-full flex items-center justify-center">
-                    <img src="../pictures/instagram.png" alt="Instagram" class="w-4 h-4">
+                    <img src="/pictures/instagram.png" alt="Instagram" class="w-4 h-4">
                 </a>
                 <a href="#" class="w-10 h-10 bg-[#f28d3c] rounded-full flex items-center justify-center">
-                    <img src="../pictures/twitter.png" alt="Twitter" class="w-4 h-4">
+                    <img src="/pictures/twitter.png" alt="Twitter" class="w-4 h-4">
                 </a>
                 <a href="#" class="w-10 h-10 bg-[#f28d3c] rounded-full flex items-center justify-center">
-                    <img src="../pictures/facebook.png" alt="Facebook" class="w-[9.33px] h-4">
+                    <img src="/pictures/facebook.png" alt="Facebook" class="w-[9.33px] h-4">
                 </a>
             </div>
         </div>
